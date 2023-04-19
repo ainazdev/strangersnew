@@ -1,0 +1,39 @@
+#header {
+  box-shadow: 3px 2px 10px grey;
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+#header .header--title {
+  display: flex;
+}
+#header .header--title a {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: -0.6px;
+  /* Text color */
+  color: #19272E;
+  text-decoration: none;
+  margin: 0 15px;
+}
+#header .header--title .active {
+  font-weight: 600;
+  font-size: 17px;
+  color: #818EEA;
+}
+#header .header--search__first {
+  color: #19272E;
+  font-size: 17px;
+  margin: 0 15px;
+}
+#header .header--search__bag {
+  font-size: 18px;
+  color: #19272E;
+}
+
+/*# sourceMappingURL=style.css.map */
