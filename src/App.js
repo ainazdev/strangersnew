@@ -8,21 +8,24 @@ import Genres from "./components/Genres";
 import AboutUs from "./components/AboutUs";
 import Books from "./components/BooksBlock";
 import Recent from "./components/Recent";
+import Height from "./components/height";
 
 function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Routes>
-          <Route path={"/bookShop"} element={<BookShop/>}/>
-          <Route path={"/genres"} element={<Genres/>}/>
-          <Route path={"/about"} element={<AboutUs/>}/>
-          <Route path={"/books"} element={<Books/>}/>
-          <Route path={"/recent"} element={<Recent/>}/>
-      </Routes>
-      <Footer/>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Height/>
+            <Routes>
+                <Route path={"/bookShop"} element={<BookShop/>}/>
+                <Route path={"/genres"} element={<Genres/>}/>
+                <Route path={"/about"} element={<AboutUs/>}/>
+                <Route path={"/books"} element={<Books/>}/>
+                <Route path={"/recent"} element={<Recent/>}/>
+            </Routes>
+
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;
