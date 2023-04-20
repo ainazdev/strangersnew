@@ -1,0 +1,28 @@
+#book {
+  background: url("../../img/the.png") no-repeat  center   ;
+  min-height: 80vh;
+  background-size: cover;
+  margin-top: 30px;
+
+  .book {
+    padding: 15%;
+
+    h1 {
+      font-weight: 700;
+      font-size: 48px;
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h5 {
+      font-weight: 400;
+      font-size: 18px;
+      color: #19272E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

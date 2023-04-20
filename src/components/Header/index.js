@@ -11,7 +11,7 @@ const Header = () => {
            <div className="container">
                <div className="header">
                    <div className="header--title">
-                       <NavLink to={"/book"}>
+                       <NavLink to={"/bookshop"}>
                            Bookshop
                        </NavLink>
                        <NavLink to={"/genres"}>
